@@ -27,7 +27,7 @@ class createFollowers {
                 }
             }
             // meter el tag en el archivo tags
-            insertarTag();
+            insertarTag($fileName);
             fclose($file);
     }
 
